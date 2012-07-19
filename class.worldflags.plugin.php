@@ -4,8 +4,8 @@ if (!defined('APPLICATION'))
 
 $PluginInfo['WorldFlags'] = array(
 	'Name' => 'World Flags',
-	'Description' => 'Adds a column in Dashboard/Users with a country flag displaying the location of the Last IP Address for each user.',
-	'Version' => '1.1',
+	'Description' => 'Adds a column in Dashboard/Users with a country flag displaying the location of the Last IP Address for each user. Also adds a flag to the user profile page.',
+	'Version' => '1.11',
 	'Author' 	=>	 "Matt Sephton",
 	'AuthorEmail' => 'matt@gingerbeardman.com',
 	'AuthorUrl' =>	 'http://www.gingerbeardman.com',
