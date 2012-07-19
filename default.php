@@ -12,7 +12,7 @@ if (!defined('APPLICATION'))
 
 $PluginInfo['GeoIPFlags'] = array(
 	'Name' => 'GeoIPFlags',
-	'Description' => 'Adds a GeoIP Country Flag column to the users list in the admin panel',
+	'Description' => 'Adds a column in Dashboard/Users with the GeoIP country flag for the Last IP Address of each user.',
 	'Version' => '1.1',
 	'Date' => 'July 19, 2012',
 	'Author' => 'vbgamer45, gingerbeardman',
