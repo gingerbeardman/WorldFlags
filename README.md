@@ -2,7 +2,7 @@
 
 Adds a column in Dashboard/Users that has the GeoIP country flag of the last IP Address of the user.
 
-Modification of the existing plugin to fix several bugs:  
+Modification of the existing plugin to fix several issues:  
 
 - Fixes paths for case sensitive filesystems.  
 - Empty flag image for users with no Last IP  
@@ -12,7 +12,7 @@ Modification of the existing plugin to fix several bugs:
 - PNG images have been optimised
 
 ## Changelog
-1.1, modification of the existing plugin to fix several bugs  
+1.1, modification of the existing plugin to fix several issues  
 1.0, initial release by vbgamer45  
 
 ## Details
