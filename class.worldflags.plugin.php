@@ -56,14 +56,16 @@ class WorldFlags implements Gdn_IPlugin
 	public function UserInfoModule_OnBasicInfo_Handler($Sender) {
 		list($countrycode, $title) = $this->_GeoLiteCity($Sender, 'UserProfile');
 		
-		echo "<dt>Location</dt>";
-		echo <<< USER
-				<dd>
-					<div class="flag flag-$countrycode" title="$title">
-						<span>$title</span>
-					</div>
-				</dd>
+		if ($countrycode != 'none') {
+			echo '<dt>Location</dt>';
+			echo <<< USER
+					<dd>
+						<div class="flag flag-$countrycode" title="$title">
+							<span>$title</span>
+						</div>
+					</dd>
 USER;
+		}
 	}
 	
 	public function UserController_UserCell_Handler($Sender) {
