@@ -1,7 +1,7 @@
 <?php 
 /*
 GeoIP Country Flags for Vanilla Forums
-By: vbgamer45, johansonlocker, gingerbeardman
+By: vbgamer45, gingerbeardman
 http://wwww.vanillaforfree.com
 
 */
@@ -13,7 +13,7 @@ $PluginInfo['GeoIPFlags'] = array(
 	'Description' => 'Adds a GeoIP Country Flag column to the users list in the admin panel',
 	'Version' => '1.1',
 	'Date' => 'July 19, 2012',
-	'Author' => 'vbgamer45, johansonlocker, gingerbeardman',
+	'Author' => 'vbgamer45, gingerbeardman',
 	'AuthorEmail' => 'vbgamer45@gmail.com',
 	'AuthorUrl' => 'http://www.vanillaforfree.com',
 	'RequiredApplications' => array(
