@@ -16,7 +16,7 @@ Modification of the existing plugin to fix several bugs:
 1.0, initial release by vbgamer45  
 
 ## Details
-See [http://vanillaforums.org/addon/easyreply-plugin](http://vanillaforums.org/addon/easyreply-plugin)
+See [http://vanillaforums.org/addon/895/geoipflags](http://vanillaforums.org/addon/895/geoipflags)
 
 ## Installation
 Place the unzipped plugin folder in your `vanilla/plugins` folder and then activate using the Dashboard.  
