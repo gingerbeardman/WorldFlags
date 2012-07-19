@@ -7,6 +7,7 @@ Also adds a flag to the user profile page.
 Hover over a flag to display both the country and city name of that location.
 
 ## Changelog
+1.11, fixed minor issue with user profile location display
 1.1, added flag to user profile page  
 1.0, initial release  
 
