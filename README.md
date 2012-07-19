@@ -1,20 +1,10 @@
-# GeoIPFlags
+# WorldFlags
 
-Adds a column in Dashboard/Users with the GeoIP country flag for the Last IP Address of each user.
-
-Modification of the existing plugin to fix several issues:  
-
-- Fixes paths for case sensitive filesystems.  
-- Empty flag image for users with no Last IP  
-- Table header only output for users with no name (now skips Akismet plugin)  
-- Uses GEOIP_MEMORY_CACHE for speed  
-- Closes filehandle after geoip_open
-- PNG images have been optimised
-- Now using famfamfam world flags
+Adds a column in Dashboard/Users with a country flag displaying the location of the Last IP Address for each user.  
+Hover over the flag for both country and city names for that location.
 
 ## Changelog
-1.1, modification of the existing plugin to fix several issues  
-1.0, initial release by vbgamer45  
+1.0, initial release
 
 ## Details
 See [http://vanillaforums.org/addon/895/geoipflags](http://vanillaforums.org/addon/895/geoipflags)
@@ -24,11 +14,15 @@ Place the unzipped plugin folder in your `vanilla/plugins` folder and then activ
 
 ## Updating
 Keep your installation up-to-date with the following files:  
-GeoIP.dat: [http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz](http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz)  
-Large Flags: [http://www.famfamfam.com](http://www.famfamfam.com)  
+GeoLiteCity.dat: [http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz](http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz)  
+Flag sprite: [http://flag-sprites.com](http://flag-sprites.com)  
 
 ### License
 This plugin is made available under a [Creative Commons Attribution-Share Alike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0).
 
 ### Credits
-Originally by [vbgamer45](http://vanillaforums.org/profile/37130/vbgamer45), modified by Matt Sephton, [http://www.gingerbeardman.com/vanilla/](http://www.gingerbeardman.com/vanilla/)
+Created by Matt Sephton, [http://www.gingerbeardman.com/vanilla/](http://www.gingerbeardman.com/vanilla/)
+
+### Thanks
+[vbgamer45](http://vanillaforums.org/profile/37130/vbgamer45) for [GeoIPFlags plugin](http://vanillaforums.org/addon/895/geoipflags)  
+[johansonlocker](http://vanillaforums.org/profile/34685/johansonlocker) for [GeoLiteCity how-to](http://vanillaforums.org/discussion/20311/geo-cities-how-to)  
