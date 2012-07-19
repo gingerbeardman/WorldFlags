@@ -1,6 +1,6 @@
 # GeoIPFlags
 
-Adds a column in Dashboard/Users that has the GeoIP country flag of the last IP Address of the user.
+Adds a column in Dashboard/Users with the GeoIP country flag for the Last IP Address of each user.
 
 Modification of the existing plugin to fix several issues:  
 
