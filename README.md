@@ -7,7 +7,7 @@ Hover over the flag for both country and city names for that location.
 1.0, initial release
 
 ## Details
-See [http://vanillaforums.org/addon/895/geoipflags](http://vanillaforums.org/addon/895/geoipflags)
+See [http://vanillaforums.org/addon/worldflags-plugin](http://vanillaforums.org/addon/worldflags-plugin)
 
 ## Installation
 Place the unzipped plugin folder in your `vanilla/plugins` folder and then activate using the Dashboard.  
@@ -15,7 +15,7 @@ Place the unzipped plugin folder in your `vanilla/plugins` folder and then activ
 ## Updating
 Keep your installation up-to-date with the following files:  
 GeoLiteCity.dat: [http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz](http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz)  
-Flag sprite: [http://flag-sprites.com](http://flag-sprites.com)  
+Flags sprite: [http://flag-sprites.com](http://flag-sprites.com)  
 
 ### License
 This plugin is made available under a [Creative Commons Attribution-Share Alike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0).
