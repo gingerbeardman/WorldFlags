@@ -4,8 +4,6 @@ GeoIP Country Flags for Vanilla Forums
 By: vbgamer45, gingerbeardman
 http://wwww.vanillaforfree.com
 
-Latest GeoIP.dat: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
-
 */
 if (!defined('APPLICATION')) 
 	exit();
