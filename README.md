@@ -1,10 +1,14 @@
 # WorldFlags
 
 Adds a column in Dashboard/Users with a country flag displaying the location of the Last IP Address for each user.  
-Hover over the flag for both country and city names for that location.
+
+Also adds a flag to the user profile page.
+
+Hover over a flag to display both the country and city name of that location.
 
 ## Changelog
-1.0, initial release
+1.1, added flag to user profile page  
+1.0, initial release  
 
 ## Details
 See [http://vanillaforums.org/addon/worldflags-plugin](http://vanillaforums.org/addon/worldflags-plugin)
