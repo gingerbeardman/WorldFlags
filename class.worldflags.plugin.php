@@ -5,13 +5,13 @@ if (!defined('APPLICATION'))
 $PluginInfo['WorldFlags'] = array(
 	'Name' => 'World Flags',
 	'Description' => 'Adds a column in Dashboard/Users with a country flag displaying the location of the Last IP Address for each user. Also adds a flag to the user profile page.',
-	'Version' => '1.11',
+	'Version' => '1.12',
 	'Author' 	=>	 "Matt Sephton",
 	'AuthorEmail' => 'matt@gingerbeardman.com',
 	'AuthorUrl' =>	 'http://www.gingerbeardman.com',
 	'License' => 'GPL v2',
 	'RequiredApplications' => array(
-		'Dashboard' => '>=2.1'
+	'Dashboard' => '>=2.1'
 	)
 );
 
@@ -38,6 +38,9 @@ class WorldFlags implements Gdn_IPlugin
 
 		$gi = geoip_open($extraspath."GeoLiteCity.dat", GEOIP_MEMORY_CACHE);
 		$record = geoip_record_by_addr($gi, $ip);
+		// echo '<pre>';
+		// print_r($record);
+		// echo '</pre>';
 		geoip_close($gi);
 
 		$countrycode = strtolower($record->country_code);
@@ -45,9 +48,15 @@ class WorldFlags implements Gdn_IPlugin
 			$countrycode = 'none';
 			$title = '';
 		} else {
-			$countryname = $record->country_name;
-			$cityname = utf8_decode($record->city);
-			$title =  "$countryname, $cityname";
+			$country = htmlentities($record->country_name);
+			$region = htmlentities($record->region);
+			$metro = htmlentities($record->metro_code);
+			
+			$cityname = htmlentities($record->city);
+			
+			$specific = (strlen($cityname)) ? "$cityname" : "";
+			if ($specific) $location = (strlen($metro)) ? " ($specific, $region)" : " ($specific)";
+			$title = "$country$location";
 		}
 		
 		return array($countrycode, $title);
